@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +10,7 @@
     </head>
     <body>
         <form action="new_user.php" method="POST">
-            Username: <input type="text" name="user"><br>
+            Username: <input type="text" name="newUser"><br>
             Password: <input type="password" name="pwd"><br>
             Repeat: <input type="password" name="repeat"><br>
             <input type="submit">
